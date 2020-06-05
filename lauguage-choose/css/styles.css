@@ -31,10 +31,15 @@
 }
 
 body {
-  background-image: url(https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/16/07/160773_v8.jpeg);
-  width: 100%;
-  color: white;
+  background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/tropical-beach-1454007190ZAK.jpg);
+  color: black;
   font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+  background-color: teal;
+  padding: 2%;
+  margin: auto;
 }
 
 h1 {

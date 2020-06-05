@@ -12,135 +12,137 @@
 </head>
 <body>
   <div class="container">
-    <h1>So you want to learn to code?</h1>
-    <form id="code">
-      <h3>What is your name?</h3>
-      <div class="form-group">
-        <label for="name">Your Name:</label>
-        <input class="form-control" type="text" name="name" id="name">
-      </div>
-      <h3>Do you have a preference for Front-end or Back-End?</h3>
-      <div class="form-group">
-        <label for="stack">Choose your preference:</label>
-        <select class="form-control" id="stack">
-          <option>Front-end</option>
-          <option>Back-End</option>
-          <option>Full Stack</option>
-        </select>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-        <h3>Do you like to pina coladas?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="pina" value="1">
-            All the time!
-          </label>
+    <div class="jumbotron">
+      <h1>So you want to learn to code?</h1>
+      <form id="code">
+        <h3>What is your name?</h3>
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input class="form-control" type="text" name="name" id="name">
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="pina" value="2">
-            Sometimes
-          </label>
-        </div> 
-        <div class="radio">
-          <label>
-            <input type="radio" name="pina" value="3">
-            Not very often
-          </label>
+        <h3>Do you have a preference for Front-end or Back-End?</h3>
+        <div class="form-group">
+          <label for="stack">Choose your preference:</label>
+          <select class="form-control" id="stack">
+            <option>Front-end</option>
+            <option>Back-End</option>
+            <option>Full Stack</option>
+          </select>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="pina" value="4">
-            Never
-          </label>
-        </div>
-        <h3>Do like getting caught in the rain?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="rain" value="1">
-            Everytime I can!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="rain" value="2">
-            Sometimes
-          </label>
-        </div> 
-        <div class="radio">
-          <label>
-            <input type="radio" name="rain" value="3">
-            Not really
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="rain" value="3">
-            Never
-          </label>
-        </div>
-        </div>
-        <div class="col-md-6">
-        <h3>Are you into Yoga?</h3>
+        <div class="row">
+          <div class="col-md-6">
+          <h3>Do you like to pina coladas?</h3>
           <div class="radio">
             <label>
-            <input type="radio" name="yoga" value="1">
-              Everyday
+              <input type="radio" name="pina" value="1">
+              All the time!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="yoga" value="2">
+              <input type="radio" name="pina" value="2">
               Sometimes
             </label>
           </div> 
           <div class="radio">
             <label>
-              <input type="radio" name="yoga" value="3">
-              Not really
+              <input type="radio" name="pina" value="3">
+              Not very often
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="yoga" value="3">
+              <input type="radio" name="pina" value="4">
               Never
             </label>
           </div>
-          <h3>Are you into Champagne?</h3>
+          <h3>Do like getting caught in the rain?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="champagne" value="1">
-              Always!
+              <input type="radio" name="rain" value="1">
+              Everytime I can!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="champagne" value="2">
+              <input type="radio" name="rain" value="2">
               Sometimes
             </label>
           </div> 
           <div class="radio">
             <label>
-              <input type="radio" name="champagne" value="3">
+              <input type="radio" name="rain" value="3">
               Not really
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="champagne" value="3">
+              <input type="radio" name="rain" value="3">
               Never
             </label>
           </div>
+          </div>
+          <div class="col-md-6">
+          <h3>Are you into Yoga?</h3>
+            <div class="radio">
+              <label>
+              <input type="radio" name="yoga" value="1">
+                Everyday
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="yoga" value="2">
+                Sometimes
+              </label>
+            </div> 
+            <div class="radio">
+              <label>
+                <input type="radio" name="yoga" value="3">
+                Not really
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="yoga" value="3">
+                Never
+              </label>
+            </div>
+            <h3>Are you into Champagne?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="champagne" value="1">
+                Always!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="champagne" value="2">
+                Sometimes
+              </label>
+            </div> 
+            <div class="radio">
+              <label>
+                <input type="radio" name="champagne" value="3">
+                Not really
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="champagne" value="3">
+                Never
+              </label>
+            </div>
+          </div>
         </div>
+        <input id="form-submit" class="btn btn-warning" type="submit" value="Submit">
+      </form>
+      <div class="output">
+        <p id="js"><span class="name"></span> you chose <span class="stack"></span> you should try Javascript!</p>
+        <p id="swift"><span class="name"></span> you chose <span class="stack"></span> you should try Swift!</p>
+        <p id="java"><span class="name"></span> you chose <span class="stack"></span> you should try Java!</p>
+        <p id="scala"><span class="name"></span> you chose <span class="stack"></span> you should try Scala!</p>
       </div>
-      <input id="form-submit" class="btn btn-primary" type="submit" value="Submit">
-    </form>
-    <div class="output">
-      <p id="js"><span class="name"></span> you should try Javascript!</p>
-      <p id="swift"><span class="name"></span> you should try Swift!</p>
-      <p id="java"><span class="name"></span> you should try Java!</p>
-      <p id="scala"><span class="name"></span> you should try Scala!</p>
     </div>
   </div>
 </body>

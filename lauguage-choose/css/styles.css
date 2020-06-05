@@ -1,3 +1,15 @@
-.output {
+#js {
+  display: none;
+}
+
+#swift {
+  display: none;
+}
+
+#java {
+  display: none;
+}
+
+#scala {
   display: none;
 }

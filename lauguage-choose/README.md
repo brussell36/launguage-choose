@@ -1,4 +1,6 @@
-# _Coding Launguage Chooser_
+![Tropical beach](https://www.publicdomainpictures.net/pictures/150000/velka/tropical-beach-1454007190ZAK.jpg)
+
+# _Coding Language Chooser_
 
 #### _Choose radio buttons to get a score, 06/05/2020_
 
@@ -6,7 +8,7 @@
 
 ## Description
 
-_Several forms take our input and give you one of four different coding launguages to try._
+_Several forms take our input and give you one of four different coding languages to try._
 
 ## Setup/Installation Requirements
 
@@ -26,7 +28,7 @@ _Several forms take our input and give you one of four different coding launguag
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs as of publishing. Please get in touch if any are found._
 
 ## Support and contact details
 
@@ -34,10 +36,10 @@ _If you have any issues or questions and concerns, please contact me at benjamin
 
 ## Technologies Used
 
-*_HTML_
-*_CSS_
-*_Bootstrap_
-*_jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
 
 ### License
 

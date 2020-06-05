@@ -47,6 +47,10 @@ body {
   margin-right: 2%;
 }
 
+.logo-img {
+  width: 10%;
+}
+
 h1 {
   font-size: 5em;
   text-align: center;

@@ -25,7 +25,7 @@ _Several forms take our input and give you one of four different coding language
 * _Feel free to edit anything you like and push them to your own repo_
 * _This is all open source_
 
-
+Page should be live. Click this link to visit https://brussell36.github.io/launguage-choose/
 ## Known Bugs
 
 _No known bugs as of publishing. Please get in touch if any are found._

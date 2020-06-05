@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $("form#code").submit(function() {
     event.preventDefault();
-    const pina = parseInt($('input[name=pina]:checked').val());
-    const rain = parseInt($('input[name=rain]:checked').val());
-    const yoga = parseInt($('input[name=yoga]:checked').val());
-    const champagne = parseInt($('input[name=champagne]:checked').val());
+    const pina = parseInt($('input[name="pina"]:checked').val());
+    const rain = parseInt($('input[name="rain"]:checked').val());
+    const yoga = parseInt($('input[name="yoga"]:checked').val());
+    const champagne = parseInt($('input[name="champagne"]:checked').val());
     const result = pina + rain + yoga + champagne;
-console.log(rain);
+    console.log(result);
     if (result === 4) {
       $("#js").show();
       $("#swift").hide();

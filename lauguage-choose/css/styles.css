@@ -32,14 +32,19 @@
 
 body {
   background-image: url(https://www.publicdomainpictures.net/pictures/150000/velka/tropical-beach-1454007190ZAK.jpg);
-  color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
-  background-color: teal;
+  background-color: #7ebdb4;
   padding: 2%;
   margin: auto;
+}
+
+.head-img {
+  width: 50%;
+  float: right;
+  margin-right: 2%;
 }
 
 h1 {

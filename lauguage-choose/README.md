@@ -1,24 +1,24 @@
-# _{Application Name}_
+# _Coding Launguage Chooser_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Choose radio buttons to get a score, 06/05/2020_
 
 #### By _**Ben Russell**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Several forms take our input and give you one of four different coding launguages to try._
 
 ## Setup/Installation Requirements
 
 ### Open by downloading
 
-1. _Download this repository onto your computer._
+1. _Download this repository onto your computer https://github.com/brussell36/launguage-choose.git._
 2. _Double click index.html to open in your web browser._
 
 ### Open via Bash/Gitbash
 
-* _clone this repository onto your computer:_
-* _Navigate into the portfolio-page directory in VS Code or text editor of choice code ._
+* _clone this repository onto your computer: https://github.com/brussell36/launguage-choose.git_
+* _Navigate into the launguage-choose directory in VS Code or text editor of choice code ._
 * _Open index.html in your preffered browser_
 * _Feel free to edit anything you like and push them to your own repo_
 * _This is all open source_

@@ -6,7 +6,7 @@ $(document).ready(function() {
     const yoga = parseInt($('input[name="yoga"]:checked').val());
     const champagne = parseInt($('input[name="champagne"]:checked').val());
     const result = pina + rain + yoga + champagne;
-    console.log(result);
+
     if (result === 4) {
       $("#js").show();
       $("#swift").hide();

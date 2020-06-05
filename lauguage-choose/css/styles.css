@@ -1,17 +1,33 @@
+#stack {
+  width: 30%;
+}
+
+#name {
+  width: 30%;
+}
+
+#form-submit {
+  margin-top: 2%;
+}
+
 #js {
   display: none;
+  font-size: 2em;
 }
 
 #swift {
   display: none;
+  font-size: 2em;
 }
 
 #java {
   display: none;
+  font-size: 2em;
 }
 
 #scala {
   display: none;
+  font-size: 2em;
 }
 
 body {
